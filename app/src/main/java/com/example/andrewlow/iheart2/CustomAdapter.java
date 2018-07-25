@@ -2,6 +2,8 @@ package com.example.andrewlow.iheart2;
 
 import android.app.Activity;
 import android.content.Context;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
@@ -18,16 +20,22 @@ public class CustomAdapter extends BaseAdapter{
 
     Context context;
     private ArrayList<String> item;
+    private final int[]images;
+    private final int numItems;
 
-    public CustomAdapter(Activity context, ArrayList item){
+
+    public CustomAdapter(Activity context, ArrayList item, int [] images, int numItems){
             //super(context,R.layout.custom_text,item);
             this.context = context;
             this.item = item;
+            this.images = images;
+            this.numItems = numItems;
     }
 
     @Override
     public int getCount() {
-        return 3;
+
+        return 7;
     }
 
     @Override
@@ -63,7 +71,7 @@ public class CustomAdapter extends BaseAdapter{
         }
 
         viewHolder.txtName.setText(item.get(position));
-        //viewHolder.icon.setImageResource(images[position]);
+        viewHolder.icon.setImageResource(images[position]);
 
         return results;
     }
