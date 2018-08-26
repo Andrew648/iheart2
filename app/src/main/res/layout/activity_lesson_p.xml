@@ -25,7 +25,6 @@
             android:layout_height="wrap_content"
             android:lineSpacingMultiplier="1.2"
 
-
             android:textColorHighlight="@color/colorAccent"
             android:textColorLink="@color/colorPrimaryDark"
             android:textColor="@android:color/black" />

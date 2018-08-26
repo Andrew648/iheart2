@@ -12,7 +12,7 @@
     <TextView
         android:id="@+id/text"
         android:layout_width="wrap_content"
-        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_toEndOf="@+id/imageIcon"
         android:layout_toRightOf="@+id/imageIcon"
@@ -20,4 +20,15 @@
         android:textColor="@android:color/black"
         android:textSize="20sp"
         android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/numLessons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:textSize="15sp"
+        android:layout_toEndOf="@+id/imageIcon"
+        android:layout_toRightOf="@+id/imageIcon"
+        android:text="TextView" />
+
 </RelativeLayout>

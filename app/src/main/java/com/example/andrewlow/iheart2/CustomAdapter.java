@@ -2,8 +2,6 @@ package com.example.andrewlow.iheart2;
 
 import android.app.Activity;
 import android.content.Context;
-import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
@@ -21,20 +19,19 @@ public class CustomAdapter extends BaseAdapter{
     Context context;
     private ArrayList<String> item;
     private final int[]images;
-    private final int numItems;
+    private final String[] numItems;
 
 
-    public CustomAdapter(Activity context, ArrayList item, int [] images, int numItems){
+    public CustomAdapter(Activity context, ArrayList item, int[] images, String[] less){
             //super(context,R.layout.custom_text,item);
             this.context = context;
             this.item = item;
             this.images = images;
-            this.numItems = numItems;
+            this.numItems = less;
     }
 
     @Override
     public int getCount() {
-
         return 7;
     }
 
@@ -61,7 +58,7 @@ public class CustomAdapter extends BaseAdapter{
             convertView = inflater.inflate(R.layout.custom_text,parent,false);
             viewHolder.txtName = convertView.findViewById(R.id.text);
             viewHolder.icon = convertView.findViewById(R.id.imageIcon);
-
+            viewHolder.lessonCount = convertView.findViewById(R.id.numLessons);
             results = convertView;
 
             convertView.setTag(viewHolder);
@@ -72,12 +69,13 @@ public class CustomAdapter extends BaseAdapter{
 
         viewHolder.txtName.setText(item.get(position));
         viewHolder.icon.setImageResource(images[position]);
-
+        viewHolder.lessonCount.setText(numItems[position]);
         return results;
     }
 
     private static class ViewHolder {
         TextView txtName;
         ImageView icon;
+        TextView lessonCount;
     }
 }

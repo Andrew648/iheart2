@@ -3,8 +3,12 @@ package com.example.andrewlow.iheart2;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -21,10 +25,14 @@ public class topicP extends AppCompatActivity {
 
         Intent it = getIntent();
         String tt =  it.getStringExtra("title");
-        if(tt.equals("Gods people")){
+        if(tt.equals("God's people")){
             topic.add(getString(R.string.god));
             topic.add(getString(R.string.god2));
             topic.add(getString(R.string.god3));
+            topic.add(getString(R.string.god4));
+            topic.add(getString(R.string.god5));
+            topic.add(getString(R.string.god6));
+            topic.add(getString(R.string.god7));
         }
 
         if(tt.equals("Family Life")){
@@ -100,6 +108,16 @@ public class topicP extends AppCompatActivity {
         ArrayAdapter<String> adapter = new ArrayAdapter<>(getApplicationContext(),R.layout.simple_list,R.id.text,topic
         );
         lt.setAdapter(adapter);
+        lt.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                String f = ((TextView)view.findViewById(R.id.text)).getText().toString();
+               // Toast.makeText(getApplicationContext(),f,Toast.LENGTH_SHORT).show();
+                Intent it = new Intent(getApplicationContext(),lessonP.class);
+                it.putExtra("title",f);
+                startActivity(it);
+            }
+        });
     }
 
     @Override
