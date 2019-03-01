@@ -1,7 +1,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">iheart2</string>
-
-    <string name="lorem_ipsum"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et magna ut erat elementum cursus in quis ipsum. Nam faucibus ultrices eros, vel tempor leo semper sit amet. Duis magna quam, congue vitae interdum nec, condimentum ut lectus. Sed commodo venenatis eros a dignissim. Nunc adipiscing turpis nec magna venenatis at ultricies ipsum bibendum. Sed volutpat urna quis nisi vulputate egestas. Etiam eu dui a enim lacinia dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\n\nPhasellus orci mi, eleifend nec congue id, volutpat at neque. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer semper velit vel leo rutrum sed fermentum elit porta.]]></string>
+    <string name="app_name">iHeart</string>
     <string name="title_template_step">Step <xliff:g id="step_number">%1$d</xliff:g>: Lorem
         Ipsum</string>
     <!--Menu-->
@@ -9,106 +7,55 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
 
+    <!--Category-->
+    <string name="babysteps">Baby steps</string>
+    <string-array name="title">
+        <item>Gospel booklet</item>
+        <item>Born again</item>
+        <item>Baby steps</item>
+        <item>DNA</item>
+        <item>ISEAT</item>
+    </string-array>
+
+
     <!--Lesson-->
-    <string name="lesson"><![CDATA[We want to explore God’s Word to discover God’s nature and heart regarding “preparation”. There are many different types of preparation, but for this lesson, we can identify 3 areas of preparation in God’s Word, which are: <br>1. Preparation is necessary before going to war <br>
-2. God prepares <br>
-3. I must prepare <br>
-        In situations of <b>war</b>, <a href="https://www.biblesociety.org.uk/explore-the-bible/read/eng/GNB/Ezek/38/7/">Ezekiel 38:7</a> says “<font color="#0000FF">Prepare yourself and be ready</font>, you and all your companies that are gathered about you; and be a guard for them.” It is important to prepare before going to war. For example the nation of Singapore requires that all young men aged 18 years complete 2.5 years of army training in order to be prepared for the country’s defence against any enemy attack, even though the world is presently at peace.<br><br>
-        <a href="https://www.biblesociety.org.uk/explore-the-bible/read/eng/GNB/Prov/21/31/">Proverbs 21:31</a> says “<font color="#0000FF">The horse is prepared for the day of battle</font>”. Imagine a horse caught in the wild and intended for war. It must be harnessed, taught to obey its rider’s commands, trained to behave properly. Imagine if the horse was not harnessed, was not trained or taught; it may wreak havoc during war, break rank and file and battle formation. Such horses are not ‘prepared’ and may have to be put down. <br><br>
-        Let’s observe how <b>God prepares</b>. There is amazing truth revealed in <a href="https://www.biblesociety.org.uk/explore-the-bible/read/eng/GNB/Heb/10/5/">Hebrews 10:5</a> which says “When He came into the world, He said: Sacrifice and offering You did not desire, but a body You have prepared for Me.” Jesus Who is God, Who is Spirit, became a man and took flesh upon Himself. The body is a mystery to angelic beings, and it has the ability of expression that angelic beings do not have. That is why demonic spirits desire so much to inhabit humans, because they can express themselves through the body that they cannot if they were merely spirit beings. It is an amazing truth that <font color="#0000FF">God prepared a body for Jesus</font>. God had to put in effort and work to prepare this. Also, from the foundation of the world, God had planned and prepared Jesus to be the sacrificial lamb to be slain for the sins of the world. <a href="https://www.biblesociety.org.uk/explore-the-bible/read/eng/GNB/Rev/13/8/">Revelation 13:8</a>. <br><br>
-<a href="https://www.biblesociety.org.uk/explore-the-bible/read/eng/GNB/Exod/23/20/">Exodus 23:20</a> says “Behold, I send an Angel before you to keep you in the way and to bring you into the place which I have prepared.” This verse tells me that God has planned a future destination (or ‘Promised Land’) for me to arrive at. Also, He has prepared an Angel assigned to me, who is ahead of me, whose purpose is to lead me, keep me in the path, and ultimately bring me to this place that God has intended and prepared for me.<br><br>
-        Jesus tells us in <a href="https://www.biblegateway.com/passage/?search=John+14%3A2-3&version=NIV">John 14:2-3</a> “ In My Father’s house are many mansions; if <i>it were not so</i>, I would have told you. I go to prepare a place for you. And If I go and prepare a place for you, I will come again and receive you to Myself; that where I am, there you may be also.” I observe that <font color="#0000FF">Jesus prepares</font>! While He was with His disciples, He told them that prior to His coming to earth, He already had a plan prepared for when He returned to His Father’s house! He was going to prepare a place (in His Father’s house) for His followers, plus that His plan included His return again to earth, to take them all away with Him to that place He was going to prepare for them in His Father’s house! Sounds and feels like a lot of preparation doesn’t it? Well, we better believe that Jesus prepares!<br><br>
-        <a href="https://www.biblesociety.org.uk/explore-the-bible/read/eng/GNB/1Cor/2/9/">1 Corinthians 2:9</a> says “eye has not seen, nor ear heard, nor have entered into the heart of man the things which God has prepared for those who love Him.” This verse tells me that <font color="#0000FF">God has prepared things for me</font> although I do not see or know about or can even imagine to know about, and the impression that I have is that these things are wonderful and marvellous. He is busying Himself thinking about me, He has a plan for me, He has already prepared these things for me!<br><br>
-        <a href="https://www.biblesociety.org.uk/explore-the-bible/read/eng/GNB/Eph/2/10/">Ephesians 2:10</a> says that “For we are His workmanship, created in Christ Jesus for good works, which God prepared beforehand that we should walk in them.” This verse tells me that <font color="#0000FF">God prepares you and me</font> in 2 ways. Firstly, He prepares me: He works on my mind and thought life; He shapes my character; He corrects my wrongful ways; He teaches me the right way of life; He disciplines me; He harnesses my raw zeal and passion and refines it by prolonged training; He moulds me into the person He wants me to be, until I become the image and likeness of Christ Jesus. He is the Master Craftsman. I am His workmanship. Secondly, He has prepared good works for me to walk in. God has a destiny for my life! He has prepared (past tense) a plan for me to carry out, and a purpose for me to fulfil. And God has trained me and equipped me to walk in good works, not just ‘do’ good works. God knew me before I was born, while I was still a foetus in my mother’s womb. My days were fashioned for me when I was made in secret! <a href="https://www.biblegateway.com/passage/?search=Psalm+139%3A13-16&version=NIV">Psalm 139:13-16</a>. How wonderful this is for me to know!<br><br>
-        Now let us observe how we must prepare. <a href="https://www.biblegateway.com/passage/?search=2+Timothy+2%3A20-21&version=NIV">2 Timothy 2:20-21</a> says “But in a great house there are not only vessels of gold and silver, but also of wood and clay, some for honour and some for dishonour. Therefore if anyone cleanses himself from the latter, he will be a vessel for honour, sanctified and useful for the Master, prepared for every good work.” This Scripture can be said to refer to God’s house (great house) comprised of His people, Christians, you and me. The difference between gold and silver is very obvious; one is a yellow golden metal, the other is a whitish grey metal. The difference between wood and clay is also very obvious. There is no ambiguity, no ‘grey area’, no guessing. Even a little child will be able to notice the difference. And Paul writing to Timothy explains that a person can choose what he kind of vessel he wants to be, whether one for honourable use, or whether one for dishonourable use. In other words, a person can choose what his ultimate destiny is going to be, and in the choosing, he will prepare himself to achieve that pre-chosen objective, that pre-determined end goal. He will cleanse himself and get rid of everything and anything that is the opposite of clean, such as bad habits, wrong attitudes, weak character. God’s Word warns against being stiff-necked, stubborn, hardened of heart, corrupt mind, darkened in understanding. He will also sanctify himself, or set himself apart. Sanctify means to separate from. For example, one will sanctify food to be eaten, and will not put it in the dustbin, or position it near soap, or in dusty place. The food has a special use, it has a specific purpose. This is the same as Christians. We can sanctify ourselves from worldly fleshly carnal things and ways, and set ourselves apart for special use, for specific purpose, for divine destiny. We can sanctify ourselves, we can make ourselves useful for God’s will and ways, we can prepare ourselves to do all kinds and all types of good work. This Scripture is really speaking about legacy; what kind of legacy do you want to create? Some examples could be “In my lifetime,<br>
-&#8226;I want to have tried all types of liquor, drugs, and dated all the different sexes <br>
-&#8226;I want to have gambled in every casino in the world <br>
-&#8226;I want to travel to 80 countries <br>
-&#8226;I want to have experienced 40 holiday cruises <br>
-&#8226;I want to have read 1000 books on entrepreneurship <br>
-&#8226;I want to have completed 1 degree, 1 MBA, 1 PHD <br>
-&#8226;I want to have created 100 apps for Android mobile telephones <br>
-&#8226;I want to have created / run 10 businesses <br>
-&#8226;I want to have constructed 5 strata titled properties of at least 20 units each<br>
-&#8226;I want to have made $10,000,000 and given $1,000,000 away to community services <br>
-&#8226;I want to have organised 50 youth camps <br>
-&#8226;I want to have planted 10 churches which are all thriving today <br><br>
-Depending on the legacy or ultimate objective of your life, that will be how you begin preparations today. For example, if I wish to have written 10 booklets for Successful Discipleship in 2 years, I will have to plan my schedule, make choices over what occupies my time, say “no” to many activities, and especially to start writing as much as possible! I also have to find a proof reader, an editor, a publisher, an app creator, a social media person to help me in my quest. The bottom line is this: I must prepare, I must cleanse myself, I must sanctify myself, in order make myself useful for God’s use, in order for me to the good works that will lead me to achieve my legacy.
-        <a href="https://www.biblegateway.com/passage/?search=1+Peter+1%3A13&version=NIV">1 Peter 1:13</a> says “Therefore gird up the loins of your mind, be sober in your spirit, and rest your hope fully upon the grace that is to be brought to you at the revelation of Jesus Christ.” Paul exhorts that <font color="#0000FF">I must prepare my mind, my spirit, my hope</font> (my whole future and destiny).
-        <a href="https://www.biblegateway.com/passage/?search=2+Timothy+4%3A2&version=NIV">2 Timothy 4:2</a> says “Preach the word! Be ready in season and out of season. Convince, rebuke, exhort, with all longsuffering and teaching.” The very exciting thing to realise is that if I am prepared, if I have put in the hard yards and persevered through the long days and hard work, I will be ready! Ready all the time to preach the word, to be a witness, to share stories and lessons. I will not even have to try because it will be a natural consequence and overflow of my preparedness, my readiness. People ought to be blessed, uplifted, relieved, enlightened, transformed, just because they have spent time with me. People’s lives ought to be changed, even if it is just a little, just because they received a bit of God’s wisdom through me, because I shed light on their situation, because I said a prayer to God with them, because I showed them love, said something kind to them, complimented them with sincerity and genuineness of heart, extended hospitality to them, because I used prophetic insight to help them achieve a breakthrough. That is the life we ought to strive to live, one wherein we are so well prepared and ready, we can preach the word (live out the gospel of Jesus Christ) in season and out of season. <font color="#0000FF">We must prepare</font>!]]>
-</string>
+
     <string name="bold"><![CDATA[This is lesson is unavailable Click <a href="back">here</a> to go back!]]></string>
 
     <!--Subtopic-->
+    <string-array name="Gospel_booklet">
+        <item>God’s Original Intention</item>
+        <item>Satan and Demons</item>
+        <item>God’s Plan to Save</item>
+        <item>God and Man</item>
+        <item>What Must I do?</item>
+        <item>Prayer</item>
+    </string-array>
 
-    <!--God's people-->
-    <string name="god">Described as a Church, a Body, a Building, an Army , a Bride</string>
-    <string name="god2">Relationship with God</string>
-    <string name="god3">Honour God</string>
-    <string name="god4">FF, Tithes, offerings </string>
-    <string name="god5">Gospel of the kingdom (not salvation)</string>
-    <string name="god6">Bible is final authority, manual for life</string>
-    <string name="god7">Dispensation of the Holy Spirit</string>
+    <string-array name="Born_again">
+        <item>WHAT DID YOU RECENTLY DO?</item>
+        <item>WHAT DOES “BORN AGAIN” MEAN?</item>
+        <item>God Jesus and the Holy Spirit</item>
+        <item>Next Step</item>
+    </string-array>
 
-    <!--Family Life-->
-    <string name="family">Emmanuel – God is with us all the time (Matthew 28:20)</string>
-    <string name="family2">Honour each other</string>
-    <string name="family3">Covenant relationships</string>
-    <string name="family4">Fathers in the faith\n 1.Not hirelings 2.Inter-generational</string>
-    <string name="family5">Mature sons and daughters</string>
-    <string name="family6">Roles, order, mutual submission, equality</string>
-    <string name="family7">Unity</string>
+    <string-array name="Baby_steps">
+        <item>Repent</item>
+        <item>Follow Jesus</item>
+        <item>Disciple’s Self and Cross </item>
+    </string-array>
 
-    <!--Church Life-->
-    <string name="church">What is the church / what it is not</string>
-    <string name="church2">Planted, rooted, branches, fruit</string>
-    <string name="church3">Acts 2 characteristics</string>
-    <string name="church4">Apostles doctrine</string>
-    <string name="church5">Prophetic worship</string>
-    <string name="church6">New wineskins, new wine</string>
-    <string name="church7">Love of people</string>
-    <string name="church8">Everyone allowed to serve to max, very happy</string>
-    <string name="church9">Glory of God in house</string>
-    <string name="church10">Everyone welcoming of all kinds and all types if people Honour</string>
-    <string name="church11">Gifts</string>
-    <string name="church12">People are Stage-makers</string>
-    <string name="church13">Word, and Spirit</string>
-    <string name="church14">Covenant relationships (cf program oriented, loose joints)</string>
-    <string name="church15">Lead ministers are wise master builders of the church</string>
+    <string-array name="DNA">
+        <item>New Life in Christ</item>
+        <item>DNA Prayer</item>
+        <item>Serving</item>
+    </string-array>
 
-    <!--Disciples - corporate-->
-    <string name="corporate">Jesus has commanded</string>
-    <string name="corporate2">Choose the right people</string>
-    <string name="corporate3">Disciple 1 person each year</string>
-    <string name="corporate4">Genuine faith, hot, passion, zeal</string>
-    <string name="corporate5">Love God, people, iH vision and mission</string>
-    <string name="corporate6">Eternal values, eternal treasure</string>
-    <string name="corporate7">Understand sin</string>
+    <string-array name="ISEAT">
+        <item>Coming soon</item>
+    </string-array>
 
-    <!--Disciples - individual-->
-    <string name="individual">Tear down, root out, thrown down, pull up</string>
-    <string name="individual2">DHAT </string>
-    <string name="individual3">Start from scratch</string>
-    <string name="individual4">Die to self, take up cross daily, live for Christ</string>
-    <string name="individual5">Spiritual disciplines</string>
-    <string name="individual6">Prayer – direct communication with Almighty God, Father – power source</string>
-    <string name="individual7">Journal</string>
-    <string name="individual8">Preparation</string>
-
-    <!--Disciples - calling/destiny-->
-    <string name="call">Work out godly character</string>
-    <string name="call2">Walk with HS in every aspect</string>
-    <string name="call3">Understand who they are in Christ</string>
-    <string name="call4">Sanctify one’s life</string>
-    <string name="call5">Fasting</string>
-    <string name="call6">Objective, target, end goal</string>
-
-    <!--Marketplace Life-->
-    <string name="market">Kings and Priests</string>
-    <string name="market2">Harvest and healing</string>
-    <string name="market3">Gleaning</string>
-    <string name="market4">Signs wonder and miracles</string>
-    <string name="market5">Wisdom to win souls</string>
-    <string name="market6">Eternal value versus mammon</string>
-    <string name="market7">Prosperity Shalom Tomb versus materialism</string>
+    <!--Copyright-->
+    <string name="copyright">iHeart Melbourne Church Copyright
+</string>
 </resources>

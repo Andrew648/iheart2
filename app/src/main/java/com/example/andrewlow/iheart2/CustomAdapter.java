@@ -18,11 +18,11 @@ public class CustomAdapter extends BaseAdapter{
 
     Context context;
     private ArrayList<String> item;
-    private final int[]images;
-    private final String[] numItems;
+    private final ArrayList<Integer>images;
+    private final ArrayList<String> numItems;
 
 
-    public CustomAdapter(Activity context, ArrayList item, int[] images, String[] less){
+    public CustomAdapter(Activity context, ArrayList item, ArrayList images, ArrayList less){
             //super(context,R.layout.custom_text,item);
             this.context = context;
             this.item = item;
@@ -32,7 +32,7 @@ public class CustomAdapter extends BaseAdapter{
 
     @Override
     public int getCount() {
-        return 7;
+        return item.size();
     }
 
     @Override
@@ -68,8 +68,8 @@ public class CustomAdapter extends BaseAdapter{
         }
 
         viewHolder.txtName.setText(item.get(position));
-        viewHolder.icon.setImageResource(images[position]);
-        viewHolder.lessonCount.setText(numItems[position]);
+        viewHolder.icon.setImageResource(images.get(position));
+        viewHolder.lessonCount.setText(numItems.get(position));
         return results;
     }
 

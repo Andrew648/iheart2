@@ -1,13 +1,62 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="matt4_18_22">18 As Jesus walked along the shore of Lake Galilee, he saw two brothers who were fishermen, Simon (called Peter) and his brother Andrew, catching fish in the lake with a net.\n
-        19 Jesus said to them, “Come with me, and I will teach you to catch people.”\n
-        20 At once they left their nets and went with him.\n
-        21 He went on and saw two other brothers, James and John, the sons of Zebedee. They were in their boat with their father Zebedee, getting their nets ready. Jesus called them,\n
-        22 and at once they left the boat and their father, and went with him.</string>
-<string name="matt28_18_20">18 Jesus drew near and said to them, “I have been given all authority in heaven and on earth.\n
-19 Go, then, to all peoples everywhere and make them my disciples: baptize them in the name of the Father, the Son, and the Holy Spirit,\n
-20 and teach them to obey everything I have commanded you. And I will be with you always, to the end of the age.”
-</string>
+    <string name="Lev26_40_42">
+        40 "But at last my people will confess their sins and the sins of their ancestors for betraying me and being hostile toward me.\n
+        41 When I have turned their hostility back on them and brought them to the land of their enemies, then at last their stubborn hearts will be humbled, and they will pay for their sins.\n
+        42 Then I will remember my covenant with Jacob and my covenant with Isaac and my covenant with Abraham, and I will remember the land.
+    </string>
+
+    <string name="eph4_17_19">
+        17 With the Lord\'s authority I say this: Live no longer as the Gentiles do, for they are hopelessly confused.\n
+        18 Their minds are full of darkness; they wander far from the life God gives because they have closed their minds and hardened their hearts against him.\n
+        19 They have no sense of shame. They live for lustful pleasure and eagerly practice every kind of impurity.
+    </string>
+
+    <string name="eph4_20_21">
+        20 But that isn\'t what you learned about Christ.\n
+        21 Since you have heard about Jesus and have learned the truth that comes from him,\n
+    </string>
+
+    <string name="eph5_22_521">
+        22 throw off your old sinful nature and your former way of life, which is corrupted by lust and deception. \n
+    23 Instead, let the Spirit renew your thoughts and attitudes.\n
+    24 Put on your new nature, created to be like God— truly righteous and holy.\n
+    25 So stop telling lies. Let us tell our neighbors the truth, for we are all parts of the same body.\n
+    26 And "don\'t sin by letting anger control you." Don\'t let the sun go down while you are still angry,\n
+    27 for anger gives a foothold to the devil.\n
+    28 If you are a thief, quit stealing. Instead, use your hands for good hard work, and then give generously to others in need.\n
+    29 Don\'t use foul or abusive language. Let everything you say be good and helpful, so that your words will be an encouragement to those who hear them.\n
+    30 And do not bring sorrow to God\'s Holy Spirit by the way you live. Remember, he has identified you as his own, guaranteeing that you will be saved on the day of redemption. \n
+    31 Get rid of all bitterness, rage, anger, harsh words, and slander, as well as all types of evil behavior.\n
+    32 Instead, be kind to each other, tenderhearted, forgiving one another, just as God through Christ has forgiven you.\n
+    5:1 Imitate God, therefore, in everything you do, because you are his dear children.\n
+    5:2 Live a life filled with love, following the example of Christ. He loved us and offered himself as a sacrifice for us, a pleasing aroma to God. \n
+    5:3 Let there be no sexual immorality, impurity, or greed among you. Such sins have no place among God\'s people.\n
+    5:4 Obscene stories, foolish talk, and coarse jokes— these are not for you. Instead, let there be thankfulness to God.\n
+    5:5 You can be sure that no immoral, impure, or greedy person will inherit the Kingdom of Christ and of God. For a greedy person is an idolater, worshiping the things of this world.\n
+    5:6 Don\'t be fooled by those who try to excuse these sins, for the anger of God will fall on all who disobey him.\n
+    5:7 Don\'t participate in the things these people do.\n
+    5:8 For once you were full of darkness, but now you have light from the Lord. So live as people of light!\n
+    5:9 For this light within you produces only what is good and right and true.\n
+    5:10 Carefully determine what pleases the Lord.\n
+    5:11 Take no part in the worthless deeds of evil and darkness; instead, expose them.\n
+    5:12 It is shameful even to talk about the things that ungodly people do in secret.\n
+    5:13 But their evil intentions will be exposed when the light shines on them,\n
+    5:14 for the light makes everything visible. This is why it is said, "Awake, O sleeper, rise up from the dead, and Christ will give you light."\n
+    5:15 So be careful how you live. Don\'t live like fools, but like those who are wise.\n
+    5:16 Make the most of every opportunity in these evil days.\n
+    5:17 Don\'t act thoughtlessly, but understand what the Lord wants you to do.\n
+    5:18 Don\'t be drunk with wine, because that will ruin your life. Instead, be filled with the Holy Spirit,\n
+    5:19 singing psalms and hymns and spiritual songs among yourselves, and making music to the Lord in your hearts.\n
+    5:20 And give thanks for everything to God the Father in the name of our Lord Jesus Christ.\n
+    5:21 And further, submit to one another out of reverence for Christ.
+    </string>
+
+<string name="matt4_18_22">18 As Jesus walked along the shore of Lake Galilee, he saw two brothers who were fishermen, Simon (called Peter) and his brother Andrew, catching fish in the lake with a net.\n
+19 Jesus said to them, “Come with me, and I will teach you to catch people.”\n
+20 At once they left their nets and went with him.\n
+21 He went on and saw two other brothers, James and John, the sons of Zebedee. They were in their boat with their father Zebedee, getting their nets ready. Jesus called them,\n
+22 and at once they left the boat and their father, and went with him.</string>
+   
 <string name="matt19_16_22">16 Just then a man came up to Jesus and asked, “Teacher, what good thing must I do to get eternal life?” \n
 17 “Why do you ask me about what is good?” Jesus replied. “There is only One who is good. If you want to enter life, keep the commandments.”\n
 18 “Which ones?” he inquired.\n
@@ -15,14 +64,45 @@ Jesus replied, “‘You shall not murder, you shall not commit adultery, you sh
 20 “All these I have kept,” the young man said. “What do I still lack?”\n
 21 Jesus answered, “If you want to be perfect, go, sell your possessions and give to the poor, and you will have treasure in heaven. Then come, follow me.”\n
 22 When the young man heard this, he went away sad, because he had great wealth.</string>
+    
 <string name="matt19_21_22">
 21 Jesus answered, “If you want to be perfect, go, sell your possessions and give to the poor, and you will have treasure in heaven. Then come, follow me.”\n
 22 When the young man heard this, he went away sad, because he had great wealth.</string>
-    <string name="mark16_17_1820">
-        17 Believers will be given the power to perform miracles: they will drive out demons in my name; they will speak in strange tongues;\n
-        18if they pick up snakes or drink any poison, they will not be harmed; they will place their hands on sick people, who will get well.”\n
-        20 The disciples went and preached everywhere, and the Lord worked with them and proved that their preaching was true by the miracles that were performed.
-    </string>
+    
+<string name="matt25_2123">
+21‘Well done, you good and faithful servant!’ said his master. ‘You have been faithful in managing small amounts, so I will put you in charge of large amounts. Come on in and share my happiness!’\n
+23‘Well done, you good and faithful servant!’ said his master. ‘You have been faithful in managing small amounts, so I will put you in charge of large amounts. Come on in and share my happiness!’
+</string>
+<string name="matt28_18_20">18 Jesus drew near and said to them, “I have been given all authority in heaven and on earth.\n
+19 Go, then, to all peoples everywhere and make them my disciples: baptize them in the name of the Father, the Son, and the Holy Spirit,\n
+20 and teach them to obey everything I have commanded you. And I will be with you always, to the end of the age.”
+</string>
+
+<string name="mark1_1_8">
+1 This is the Good News about Jesus the Messiah, the Son of God. It began\n
+    2 just as the prophet Isaiah had written: "Look, I am sending my messenger ahead of you, and he will prepare your way.\n
+    3 He is a voice shouting in the wilderness, 'Prepare the way for the LORD's coming! Clear the road for him!' "\n
+    4 This messenger was John the Baptist. He was in the wilderness and preached that people should be baptized to show that they had turned to God to receive forgiveness for their sins.\n
+    5 All of Judea, including all the people of Jerusalem, went out to see and hear John. And when they confessed their sins, he baptized them in the Jordan River.\n
+    6 His clothes were woven from coarse camel hair, and he wore a leather belt around his waist. For food he ate locusts and wild honey.\n
+    7 John announced: "Someone is coming soon who is greater than I am— so much greater that I'm not even worthy to stoop down like a slave and untie the straps of his sandals.\n
+    8 I baptize you with water, but he will baptize you with the Holy Spirit!"\n
+</string>
+
+<string name="mark16_17_1820">
+17 Believers will be given the power to perform miracles: they will drive out demons in my name; they will speak in strange tongues;\n
+18 if they pick up snakes or drink any poison, they will not be harmed; they will place their hands on sick people, who will get well.”\n
+20 The disciples went and preached everywhere, and the Lord worked with them and proved that their preaching was true by the miracles that were performed.
+</string>
+    
+<string name="luke_3_10_14">
+10 The crowds asked, "What should we do?"\n
+11 John replied, "If you have two shirts, give one to the poor. If you have food, share it with those who are hungry."\n
+12 Even corrupt tax collectors came to be baptized and asked, "Teacher, what should we do?"\n
+13 He replied, "Collect no more taxes than the government requires."\n
+14 "What should we do?" asked some soldiers.John replied, "Don't extort money or make false accusations. And be content with your pay."
+</string>
+
 <string name="luke_8_4_15">
 4 People kept coming to Jesus from one town after another; and when a great crowd gathered, Jesus told this parable:\n
 5 “Once there was a man who went out to sow corn. As he scattered the seed in the field, some of it fell along the path, where it was stepped on, and the birds ate it up\n
@@ -31,9 +111,56 @@ Jesus replied, “‘You shall not murder, you shall not commit adultery, you sh
 8 And some seeds fell in good soil; the plants grew and produced corn, a hundred each.” And Jesus concluded, “Listen, then, if you have ears!”
 9 His disciples asked Jesus what this parable meant, \n
 10 and he answered, “The knowledge of the secrets of the Kingdom of God has been given to you, but to the rest it comes by means of parables, so that they may look but not see, and listen but not understand.\n
-11 “This is what the parable means: the seed is the word of God.
-12The seeds that fell along the path stand for those who hear; but the Devil comes and takes the message away from their hearts in order to keep them from believing and being saved.
-13 The seeds that fell on rocky ground stand for those who hear the message and receive it gladly. But it does not sink deep into them; they believe only for a while but when the time of testing comes, they fall away.
-14 The seeds that fell among thorn bushes stand for those who hear; but the worries and riches and pleasures of this life crowd in and choke them, and their fruit never ripens.
+11 “This is what the parable means: the seed is the word of God.\n
+12The seeds that fell along the path stand for those who hear; but the Devil comes and takes the message away from their hearts in order to keep them from believing and being saved.\n
+13 The seeds that fell on rocky ground stand for those who hear the message and receive it gladly. But it does not sink deep into them; they believe only for a while but when the time of testing comes, they fall away.\n
+14 The seeds that fell among thorn bushes stand for those who hear; but the worries and riches and pleasures of this life crowd in and choke them, and their fruit never ripens.\n
 15 The seeds that fell in good soil stand for those who hear the message and retain it in a good and obedient heart, and they persist until they bear fruit.</string>
+
+    <string name="john14_15_18">
+        15 "If you love me, obey my commandments. \n
+        16 And I will ask the Father, and he will give you another Advocate, who will never leave you. \n
+        17 He is the Holy Spirit, who leads into all truth. The world cannot receive him, because it isn't looking for him and doesn't recognize him. But you know him, because he lives with you now and later will be in you.\n
+        18 No, I will not abandon you as orphans— I will come to you.\n
+    </string>
+
+<string name="rom12_1_2">
+1 And so, dear brothers and sisters, I plead with you to give your bodies to God because of all he has done for you. Let them be a living and holy sacrifice— the kind he will find acceptable. This is truly the way to worship him.\n
+2  Don\'t copy the behavior and customs of this world, but let God transform you into a new person by changing the way you think. Then you will learn to know God\'s will for you, which is good and pleasing and perfect.
+</string>
+    
+<string name="hebrew_12_3_11">
+3 Think of all the hostility he endured from sinful people; then you won\'t become weary and give up. \n
+4 After all, you have not yet given your lives in your struggle against sin.\n
+5 And have you forgotten the encouraging words God spoke to you as his children? He said, "My child, don't make light of the LORD\'s discipline, and don't give up when he corrects you.\n
+6 For the LORD disciplines those he loves, and he punishes each one he accepts as his child."\n
+7 As you endure this divine discipline, remember that God is treating you as his own children. Who ever heard of a child who is never disciplined by its father?\n
+8 If God doesn\'t discipline you as he does all of his children, it means that you are illegitimate and are not really his children at all.\n
+9 Since we respected our earthly fathers who disciplined us, shouldn\'t we submit even more to the discipline of the Father of our spirits, and live forever?\n
+10 For our earthly fathers disciplined us for a few years, doing the best they knew how. But God\'s discipline is always good for us, so that we might share in his holiness.\n
+11 No discipline is enjoyable while it is happening— it\'s painful! But afterward there will be a peaceful harvest of right living for those who are trained in this way.
+</string>
+
+<string name="IICor7_8_10">
+8 I am not sorry that I sent that severe letter to you, though I was sorry at first, for I know it was painful to you for a little while.\n
+9 Now I am glad I sent it, not because it hurt you, but because the pain caused you to repent and change your ways. It was the kind of sorrow God wants his people to have, so you were not harmed by us in any way.\n
+10 For the kind of sorrow God wants us to experience leads us away from sin and results in salvation. There\'s no regret for that kind of sorrow. But worldly sorrow, which lacks repentance, results in spiritual death.\n
+</string>
+
+<string name="Isa1_16_17">
+16 Wash yourselves and be clean! Get your sins out of my sight. Give up your evil ways.\n
+17 Learn to do good. Seek justice. Help the oppressed. Defend the cause of orphans. Fight for the rights of widows.\n
+</string>
+
+    <string name="Ijohn2_20_27">
+        20 But you are not like that, for the Holy One has given you his Spirit, and all of you know the truth. \n
+    21 So I am writing to you not because you don\'t know the truth but because you know the difference between truth and lies.\n
+    22 And who is a liar? Anyone who says that Jesus is not the Christ. Anyone who denies the Father and the Son is an antichrist. \n
+    23 Anyone who denies the Son doesn\'t have the Father, either. But anyone who acknowledges the Son has the Father also.\n
+    24 So you must remain faithful to what you have been taught from the beginning. If you do, you will remain in fellowship with the Son and with the Father.\n
+    25 And in this fellowship we enjoy the eternal life he promised us.\n
+    26 I am writing these things to warn you about those who want to lead you astray.\n
+    27 But you have received the Holy Spirit, and he lives within you, so you don\'t need anyone to teach you what is true. For the Spirit teaches you everything you need to know, and what he teaches is true— it is not a lie. So just as he has taught you, remain in fellowship with Christ.
+    </string>
+
 </resources>

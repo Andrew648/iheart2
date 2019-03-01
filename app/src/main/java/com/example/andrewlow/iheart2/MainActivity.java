@@ -13,61 +13,40 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 
 public class MainActivity extends AppCompatActivity {
 
     ListView listView;
+    private AdView mAdView;
 
-    int[] images = {R.drawable.lecture,R.drawable.family,R.drawable.chapel,R.drawable.handshake,R.drawable.individual,R.drawable.destiny,R.drawable.market};
-    String [] less = {"7 lessons","7 lessons","15 lessons","7 lessons","8 lessons","6 lessons","7 lessons"};
+    //int[] images = {R.drawable.baby,R.drawable.lecture,R.drawable.family,R.drawable.chapel,R.drawable.handshake,R.drawable.individual,R.drawable.destiny,R.drawable.market};
     private DrawerLayout mDrawerLayout;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        /*sqlClass sql = new sqlClass(this);
-        SQLiteDatabase db = sql.getReadableDatabase();
-
-        String[]projection={sqlClass.Table1.column};
-        Cursor c = db.query(sqlClass.Table1.TABLE_NAME,null,null,null,null,null,null);*/
-
 
         listView = findViewById(R.id.list);
-        ArrayList<String> items = new ArrayList<>();
-        //Toast.makeText(getApplicationContext(),""+c.getCount(),Toast.LENGTH_SHORT).show();
-       /* while(c.moveToNext()){
-            String cr = c.getString(c.getColumnIndex("Title"));
-            items.add(cr);
+        ArrayList<String> items = new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.title)));
+        ArrayList<String> numless = countLesson(items);
+        ArrayList<Integer> icon = imageID(items);
 
-        }*/
-        items.add("God's people");
-        items.add("Family Life");
-        items.add("Church Life");
-        items.add("Disciples - corporate");
-        items.add("Disciples - individual");
-        items.add("Disciples - Calling/Destiny");
-        items.add("Marketplace Life");
-
-        /*mDrawerLayout = findViewById(R.id.drawer_layout);
-        NavigationView navigationView = findViewById(R.id.navigation);
-        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
-            @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
-                menuItem.setChecked(true);
-                mDrawerLayout.closeDrawers();
-                return true;
-            }
-        });*/
+        mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
 
         CustomAdapter adapter;
-        //ArrayAdapter<String> adapter = new ArrayAdapter<>(getApplicationContext(),android.R.layout.simple_list_item_1,items);
-        adapter = new CustomAdapter(MainActivity.this,items,images,less);
-        //Toast.makeText(getApplicationContext(),""+c.getCount(),Toast.LENGTH_SHORT).show();
+        adapter = new CustomAdapter(MainActivity.this,items,icon,numless);
         listView.setAdapter(adapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -79,5 +58,27 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(it);
             }
         });
+    }
+
+    private ArrayList<String> countLesson(ArrayList category){
+        ArrayList <String> list = new ArrayList<>();
+        for(int i = 0;i<category.size();i++){
+            String topicID = category.get(i).toString().replace(" ","_");
+            int id = getResources().getIdentifier(topicID,"array",getPackageName());
+            int size = Arrays.asList(getResources().getStringArray(id)).size();
+            list.add( size + " lessons");
+        }
+        return list;
+    }
+
+    private ArrayList<Integer> imageID(ArrayList category){
+        ArrayList<Integer> pic = new ArrayList<>();
+        for(int i=0;i<category.size();i++){
+            String topicID = category.get(i).toString().replace(" ","_");
+            topicID = topicID.toLowerCase();
+            int id = getResources().getIdentifier(topicID,"drawable",getPackageName());
+            pic.add(id);
+        }
+        return pic;
     }
 }
