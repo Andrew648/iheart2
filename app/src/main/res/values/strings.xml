@@ -12,7 +12,7 @@
     <string-array name="title">
         <item>Gospel booklet</item>
         <item>Born again</item>
-        <item>Baby steps</item>
+        <item>First steps</item>
         <item>DNA</item>
         <item>ISEAT</item>
     </string-array>
@@ -47,6 +47,10 @@
 
     <string-array name="DNA">
         <item>New Life in Christ</item>
+        <item>Community and Relationships</item>
+        <item>Planting</item>
+        <item>Lordship</item>
+        <item>Identity with Christ</item>
         <item>DNA Prayer</item>
         <item>Serving</item>
     </string-array>
